@@ -12,6 +12,7 @@ Desde la creacion de github sobre como esto nos puede ayudar en el trabajo ya qu
 
 "**Coffe House**".
 ### Compañero especial
-Esta persona me ayudo mucho para comprender que es lo de github  
+Esta persona me ayudo mucho para comprender que es lo de github👀👀👀 
 
-1. Josué Alejandro Yaquian Sarceño.
+1. Francisco Javier Sánchez Tasej @JavierSanchez17 
+

@@ -1,13 +1,19 @@
 #include <conio.h>
 #include <string>
+<<<<<<< Updated upstream
 #include <iostream>
 #include<Windows.h>
 #include<time.h>
+=======
+#include<conio.h>
+
+>>>>>>> Stashed changes
 using namespace std;
 
 int main()
 {
 
+<<<<<<< Updated upstream
 	int num1;
 	int menu;
 	int numeroprimo =0;
@@ -251,3 +257,58 @@ int main()
 	_getch();
 
 }
+=======
+    int con  =0; 
+    int y =0; 
+    int z =0;
+    int x = 0;
+    /*
+     * Escriba un programa que remueva los elementos duplicados de cualquier arreglo, debe mostrar en pantalla el arreglo resultante
+     * Ejemplo 1: array = [1,2,2,3] array2 = [2,2] ---> Resultado: [1,2,3]
+     * Ejemplo 2: array = [0,0,0,1,2,2,3,3,3,3,3,3,4,4,4] ---> Resultado: [0,1,2,3,4]
+     * Consejo: Asuma que el arreglo que se probará siempre va a estar ordenado
+     */
+    cout << "Challenge #1" << endl;
+    int arreglo[] = { 0, 1, 1, 1, 2, 2 };  // Empiece con este arreglo ya existente, el docente modificará este arreglo para pruebas
+
+
+
+    
+
+    cout << "Los numero ya completos son" << endl;
+
+   for (int x = 0; x < con; x++)
+    {
+       int arreglo[] = { 0, 1, 1, 1, 2, 2 };
+         cout << arreglo[x];
+    }
+
+    for (int x = 0; x < con; x++)
+    {
+        for (y = x + 1; y < con; y++)
+        {
+            if (arreglo[x] == arreglo[y])
+
+            {
+                for (z = y; z > con - 1; z++)
+                {
+                    arreglo[z] = arreglo[z + 1];
+                    con = con - 1;
+                    y = x;
+
+                }
+            }
+        }
+
+    }
+    for (int x = 0; x < con; x++)
+    {
+        cout<<"Es es sin repetidos " << endl;
+        cout << arreglo[x];
+        cout << endl;
+       
+    }
+
+    return 0;
+ }
+>>>>>>> Stashed changes
